@@ -1,51 +1,492 @@
 [
     {
         "stars": "★★★★★",
-        "text": "Absolutely phenomenal experience! My stylist listened to every detail I wanted and delivered a haircut that exceeded my expectations. The atmosphere is so calming, and everyone is incredibly friendly. Can’t recommend this place enough!",
-        "author": "Sarah Mitchell",
-        "date": "February 15, 2025",
+        "text": "Tiffany Johnson is a talented hair stylist!",
+        "author": "Montse F.",
+        "date": "2017",
         "source": "google"
     },
     {
         "stars": "★★★★★",
-        "text": "The best spa day I’ve had in years. The deep tissue massage was exactly what I needed, and the staff made me feel so pampered. The salon is gorgeous, and I’m already planning my next visit!",
-        "author": "Liam Carter",
-        "date": "March 5, 2025",
-        "source": "yelp"
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Mrs. J",
+        "date": "2018",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "The Best",
+        "author": "Victoria P.",
+        "date": "2018",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Vladimir K.",
+        "date": "2018",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Great salon.",
+        "author": "Jill R.",
+        "date": "2018",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Go see Ashley! She genuinely cares about her clients, very professional. Thanks Ashley!",
+        "author": "Lisa M.",
+        "date": "2018",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Christina H.",
+        "date": "2019",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Troy R.",
+        "date": "2019",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I go to Kelly to get my nails done here and she is the absolute best. Plenty of options and she always does a good job, haven’t been to a different nail technician in over 3 years.",
+        "author": "Murren M.",
+        "date": "2019",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Amazing wiley's color is the best",
+        "author": "Michell C.",
+        "date": "2019",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Tatyana is my lifeline. It's a pleasure every time is see her and I'm always happy with my hair. Today I went in for a cut, it's three hours later and I keep finding myself going to mirror to check it out and play with it. I couldn't be happier!",
+        "author": "Stevi M.",
+        "date": "2019",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I was happy to find this place. It is a place with more of 10 locals, they are own for different people, you can find different hair salons, a place to tread your facial hair, massages, nails. I really like this place.",
+        "author": "Martha B.",
+        "date": "2019",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Best salon in The Woodlands! Mauricio is amazing at hair color and Eloisa provides the best haircut/style of any stylish I've ever been to!",
+        "author": "Chastity P.",
+        "date": "June 4, 2019",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Kelly is always a top notch aesthetician, she does a great job whether nails, brows or lashes... flexible scheduling and she’s meticulous about keeping her tools sanitary.",
+        "author": "Amylou G.",
+        "date": "August 4, 2019",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Lourdes S.",
+        "date": "October 16, 2019",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Erica E.",
+        "date": "November 11, 2019",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Joseph R.",
+        "date": "January 23, 2020",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Healthy Beauty and More",
+        "date": "February 3, 2020",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Chelsea G.",
+        "date": "February 15, 2020",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Brandy is AMAZING!She has totally transformed my hair form burnt and flat to soft and silky. At age 50, this may be the best may have ever looked",
+        "author": "Dani Q.",
+        "date": "February 22, 2020",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Nina was amazing. Great boutique!",
+        "author": "Liller W.",
+        "date": "February 28, 2020",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I have been so scared to go to a salon ever since last year when I had a terrible experience at a mall salon, I left crying. I didn’t know what to expect but Arnold did my hair and restored my faith in humanity. He was super sweet ( got me 2 bags of Doritos when I said I was hungry and a Sierra Mist ) but most importantly he is a phenomenal hairstylist. He fixed the hack job I had gotten at a different salon and he knows blonde!! I haven’t felt beautiful in a long time but I left his chair feeling like Beyoncé. He’s the very best stylist I have ever had and I will never go anywhere else for life! He took his time and I never felt rushed; it was like seeing an old friend who happens to be amazing at hair. He is a gem and if you want your hair to look flawless go to Arnold!!",
+        "author": "Alex O.",
+        "date": "May 14, 2020",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Sissy is the way to one’s heart when it comes to hair! Always on time, understands what the ever changing mind wants and will walk you through it, and THEN executes every time. I’m a golfer with long hair so my hair color is always changing in the sun. She keeps me feeling natural, yet sexy. Thank you Sissy, so glad I found you! 🤍",
+        "author": "Bianca S.",
+        "date": "June 27, 2020",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "This place is good",
+        "author": "Edwin C.",
+        "date": "October 22, 2020",
+        "source": "google"
     },
     {
         "stars": "★★★★☆",
-        "text": "Loved my hair coloring session! The stylist was skilled and gave me a vibrant new look. Only downside was a slight wait, but the results were worth it. Will definitely return.",
-        "author": "Emma Rodriguez",
-        "date": "March 12, 2025",
+        "text": "I went to LaModa Salon inside SOZO. I really liked the ladies working there. It was very clean and well stocked. I had a simple service, but was very pleased and look forward to my next appointment there.",
+        "author": "Kathy W.",
+        "date": "2021",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I don't come here for the salon. I come here for Nails by Kelly! She does an amazing job! And the price is very reasonable! I would highly recommend Nails by Kelly!",
+        "author": "MimiSings4",
+        "date": "May 7, 2021",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "My favorite about this salon is the first person a see at the reception when I enter - Kelly. So kind, nice and attentive. Genuinely cares that you get to see who you need quickly. And if one has to wait a little offers cup of coffee as if feeling that you need and makes you feel welcome.",
+        "author": "Fidan M.",
+        "date": "June 26, 2021",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Maddison A.",
+        "date": "July 8, 2021",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Wonderful Sarah as always!",
+        "author": "Thursday",
+        "date": "July 10, 2021",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Rebecka L.",
+        "date": "October 25, 2021",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Beautiful",
+        "author": "Ruby B.",
+        "date": "2022",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Like my brow place!",
+        "author": "Liia P.",
+        "date": "January 12, 2022",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Afton S.",
+        "date": "January 16, 2022",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★☆",
+        "text": "Haircut from XtinaFay at Sozo was awesome!",
+        "author": "Sonia J.",
+        "date": "April 1, 2022",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★☆",
+        "text": "Everyone was so nice and my daughter got a great cut!",
+        "author": "Maddison A.",
+        "date": "May 28, 2022",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "WE WERE IN SOZO HAIR DESIGN YESTERDAY, MY MOTHER HAVE A BEAUTIFUL AWESOME HAIRCUT BY AN AMABLE MISS TONY GLAZEBROOK, SHE DID A WONDERFUL WORK. And all he staff was very kind and attentive, I'll be happy to return there to try doing my hair too! Congratulations Tony 🙏🏼",
+        "author": "Jessy",
+        "date": "December 24, 2022",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★☆",
+        "text": "Nicely maintained and good staff! Went there for my sons and daughters hair cut. Will definitely go again",
+        "author": "Rafiq K.",
+        "date": "March 9, 2023",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Shikha M.",
+        "date": "June 20, 2023",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Troy has been cutting my hair for at least 15 years! He gives a precision cut that keeps its shape for months. Jocelyn gives a shampoo and scalp massage that is so relaxing. It’s always a great experience!",
+        "author": "Jana B.",
+        "date": "December 30, 2023",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Mariana L.",
+        "date": "January 5, 2024",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I HIGHLY recommend going to Giselle! I get a short/bob style haircut and she always does such an amazing job and she’s also phenomenal at doing color. Thank you!!!",
+        "author": "Stefani D.",
+        "date": "June 22, 2024",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★☆",
+        "text": "They did a great job with my daughter's hair",
+        "author": "Clay B.",
+        "date": "October 8, 2024",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I had my hair cut and highlighted by Amarena last week and I am SOO happy!! She got exactly the style of cut that I was going for (a change for me) and the colour and density of highlights is a dream!!! I have coloured my hair for almost 20 years with many different stylists and this was one of the best results. Will absolutely come back next time I’m in The Woodlands (from Canada).",
+        "author": "Alex K.",
+        "date": "November 10, 2024",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Maida is now at Sozo Spa Salons. Visited her last week for another great haircut. Great job as always. Go see Maida!",
+        "author": "Paul M.",
+        "date": "February 22, 2025",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Ready for haircut!",
+        "author": "Joaquín H.",
+        "date": "March 29, 2025",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "LOVE LOVE LOVE This salon!!",
+        "author": "Savannah C.",
+        "date": "September 2, 2014",
         "source": "facebook"
     },
     {
         "stars": "★★★★★",
-        "text": "I got a facial and a manicure here, and it was pure bliss. The esthetician was amazing, and my skin has never looked better. The attention to detail is top-notch!",
-        "author": "Olivia Bennett",
-        "date": "March 18, 2025",
+        "text": "This is the most professional and beautiful hair salon I've ever been to in my life ! I'm so happy to be here and start a new chapter in my life ! Such an awesome, and positive vibe as well ! Anyone that comes here will always feel refresh and relax ! ! !  Only come to the NUMBER ONE hair salon ever SoZO !",
+        "author": "Samantha V.",
+        "date": "September 18, 2014",
+        "source": "facebook"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Jade E.",
+        "date": "April 3, 2017",
+        "source": "facebook"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Melanie N.",
+        "date": "April 12, 2017",
+        "source": "facebook"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I love working here! The atmosphere is upscale & inviting!",
+        "author": "Nita W.",
+        "date": "July 30, 2017",
+        "source": "facebook"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "⭐⭐⭐⭐⭐",
+        "author": "Teri V.",
+        "date": "January 4, 2018",
+        "source": "facebook"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "HIGHLY RECOMMEND NAILS BY KELLY, QUYNH GIP FOR HAIR CUT AND STYLE, AND WILEY FOR COLOR!  TRIFECTA!",
+        "author": "Maria N.",
+        "date": "March 21, 2018",
+        "source": "facebook"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I LOVE IT!!! Mauricio did my color & Eloisa did the cut!!! Absolutely amazing!!! Love them!!",
+        "author": "Joyce A.",
+        "date": "May 5, 2018",
+        "source": "facebook"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I would highly recommend Tatyana Mc micheal.Tatyana is a fantastic Hairdresser and Make up artist I am always so happy with the results .I’m so glad I found her..Amazing results",
+        "author": "Bernadette T.",
+        "date": "September 16, 2019",
+        "source": "facebook"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "The BEST SALON in THE WOODS!",
+        "author": "Christina C.",
+        "date": "June 26, 2020",
+        "source": "facebook"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "amazing results. the receptionist was extremely nice. the service was great",
+        "author": "Rachel H.",
+        "date": "April 24, 2021",
+        "source": "facebook"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Sozo Boutique Salons and Spa is a great salon and spa in The Woodlands. My hairstylist Troy really pays attention to his clients needs and makes sure you are happy with your overall experience. If you are looking for a salon that has all your Salon and Spa needs then Sozo Boutique is the place for you.",
+        "author": "Luis C.",
+        "date": "May 21, 2014",
         "source": "yelp"
     },
     {
         "stars": "★★★★★",
-        "text": "This salon is a hidden gem! My updo for a wedding was stunning, and the makeup artist nailed my look. Everyone was so professional and made the whole experience enjoyable.",
-        "author": "Noah Phillips",
-        "date": "March 22, 2025",
-        "source": "google"
+        "text": "Kelly is the best nail technician I have ever been to, and I am very picky when it comes to my nails. I followed her from another salon, and would follow her anywhere in the city if I had to! She is attentive, thorough, and wants you to be happy with her work. She is also very funny! I love coming to see her, and I am always confident she will do detailed and excellent nail work, always! I tried all of the salons around The Woodlands, and she is by far the most skilled when it comes to taking care of your nails. She even takes extra time on areas of your nails others won't. Thank you, Kelly!",
+        "author": "Kristi G.",
+        "date": "Oct 15, 2015",
+        "source": "yelp"
     },
     {
         "stars": "★★★★★",
-        "text": "Fantastic service from start to finish. The keratin treatment left my hair silky smooth, and the stylist gave me great tips for maintenance. I’m thrilled with the outcome!",
-        "author": "Ava Thompson",
-        "date": "March 25, 2025",
-        "source": "apple"
+        "text": "I'm so happy for Kelly that she has her own salon now. She's excellent and always provides a professional mani/pedi. Kelly is a kind and caring person and always makes you feel welcome. She takes a lot pride in her work and it shows! I get lots of compliments on my manis. Please give her a try! You'll soon become another one of her loyal customers.",
+        "author": "Melissa W.",
+        "date": "Nov 4, 2015",
+        "source": "yelp"
     },
     {
         "stars": "★★★★★",
-        "text": "Hands down the best massage I’ve ever had. The therapist was incredibly skilled, and the ambiance was so relaxing. I left feeling rejuvenated and can’t wait to book again!",
-        "author": "Ethan Brooks",
-        "date": "March 28, 2025",
+        "text": "Quyin does amazing work guys! I'm picky with who I let cut my hair or I don't cut it at all. She is very creative and always make time for me with my busy schedule. Come find out for yourself, you won't regret it!",
+        "author": "May 4, 2016",
+        "date": "May 4, 2016",
+        "source": "yelp"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Quynh is the best!!! Very professional, clean atmosphere, and everyone else was very nice too. I sent my wife there and she came back with nothing but good things to say. Prices are very seasonable.",
+        "author": "Dung L.",
+        "date": "May 4, 2016",
+        "source": "yelp"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "You get all the amenities of an expensive spa for a reasonable price here. Kelley is the only one working here, so you definitely NEED AN APPOINTMENT. It doesn't say so on Yelp, and Kelley can't fix it to say it- but she is very accommodating and tries to fit you into her busy schedule. She is available by text and phone call. You will feel really special as she is the only one there and focuses only on you. Not only that but this lets her put special attention and detail into everything she does without the rushed feeling other nail salons can have when things get too busy. She did a great job with everything; I highly recommend her! I will be back for sure! This is the best nail salon experience that I have ever had.",
+        "author": "Kerry C.",
+        "date": "Jul 1, 2016",
+        "source": "yelp"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I brought my son in (he's growing out his hair to donate) on an asap basis and they could see us right away. We had just moved here and had no idea where to go! Sophie was so gentle and sweet and Good with him that I went back to have her do my hair the next week. The fabulous atmosphere was worth a lot, but the product is even more fantastic. My hair is more beautiful and sexy than it has ever been, easy to style or not style and still looks great, I can still easily put it back during those times I need to work hard, and the color is absolutely amazing. We totally lucked out and found our stylist quickly! We'll be regulars there for sure.",
+        "author": "Monique K.",
+        "date": "Sep 11, 2016",
+        "source": "yelp"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Tiffany J. is fantastic! She's been cutting & styling my hair for years, and always leaves me with a smile. Excited she's offering gift certificates this holiday season!! If you're looking for a great cut & style, for a great price, I'd definitely recommend Tiffany.",
+        "author": "Christie C.",
+        "date": "Oct 13, 2016",
+        "source": "yelp"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I came in with really dark hair and wanted a change, Marci took me in for a last minute appointment. She added highlights to my hair and they came out amazing! I recommend her to anyone",
+        "author": "Jessica R.",
+        "date": "Sep 10, 2017",
+        "source": "yelp"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "If you want a head-turning haircut, look no further than Shaun at Sozo. He is the only person I let come around my head with scissors. Quality: The best hairstylist I have ever had. I always get compliments post haircut. He has the best hands -- when he's washing your hair, your scalp will thank you. It's like going to a masseuse! He is also gentle. Im not tender-headed, but I can't think of a time where he has ever pulled my hair when cutting it. He uses the best products. They smell good and leave your hair soft and shiny. Personality: He knows how to read people so he can create good conversation or stay quiet if you look like you or aren't in the mood and would rather relax. He's funny though! I always enjoy coming in and seeing that big smile immediately followed by a comical anecdote. Oh, p.s. ladies: he smells really good! ;) Price: Affordable. I would have thought The Woodlands would be more expensive but I guess he charges fairly because he is passionate about what he does and doesn't want to price gouge. He takes his time with his clients and wants you to walk out happy and looking good with a new found confidence. I always leave feeling like a new person and give him a big tip because he does an awesome job. I always get compliments on my hair! Thanks Shaun! In conclusion, if you value your hair and want a stylish cut or color, go to Shaun. If you want an affordable cut and someone to brighten your day, also go to Shaun. I hope this helps. Location: Sozo salon, behind Pei Wei near the 24 hr fitness and Trader Joes.",
+        "author": "Jessica R.",
+        "date": "Apr 6, 2018",
+        "source": "yelp"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I have been looking for someone who could highlight and style my very fine and short hair. I finally found someone! Lauren did a wonderful job and I am so pleased. Everyone was wearing masks and social distancing was practiced while I was there. The salon is very attractive and I was well taken care of the entire time.",
+        "author": "Andrea K.",
+        "date": "Jan 30, 2021",
+        "source": "yelp"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I came in as a walk-in and was thankfully booked quickly. My stylist Sarah perfectly executed everything I wanted! On top of a spot-on balayage and face framing I was able to find products that would keep my hair shiny and healthy. As someone going from dark brown to blonde, it can be difficult to find a hair dresser that understands the vision you have for your hair, but my expectations were exceeded during my visit by not only service but quality. Highly recommend!",
+        "author": "Amanda S.",
+        "date": "Sep 2, 2021",
+        "source": "yelp"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Sarah is AWESOME !!! She works so hard. I can in before my birthday and before I leave for vacation. She is so down to earth and so sweet. She made my hair transform into exactly what I wanted. I showed her a picture and she did exactly that and more. She did a fantastic job. Will defiantly go back to her again!",
+        "author": "Brittany D.",
+        "date": "Dec 31, 2021",
+        "source": "yelp"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Great new location in The Woodlands on the side behind Trader Joe's for Maida. The best stylist in The Woodlands.",
+        "author": "Paul M.",
+        "date": "Feb 18, 2025",
         "source": "yelp"
     }
 ]

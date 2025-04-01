@@ -7,11 +7,11 @@
     {
         "name": "KEVIN MURPHY",
         "image": "./img/products/kevin-murphy.jpg",
-        "url": "https://kevinmurphy.com.au/"
+        "url": ""
     },
     {
         "name": "Moroccanoil",
         "image": "./img/products/moroccanoil.webp",
-        "url": "https://www.moroccanoil.com/"
+        "url": ""
     }
 ]

@@ -1,0 +1,51 @@
+[
+    {
+        "stars": "★★★★★",
+        "text": "Absolutely phenomenal experience! My stylist listened to every detail I wanted and delivered a haircut that exceeded my expectations. The atmosphere is so calming, and everyone is incredibly friendly. Can’t recommend this place enough!",
+        "author": "Sarah Mitchell",
+        "date": "February 15, 2025",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "The best spa day I’ve had in years. The deep tissue massage was exactly what I needed, and the staff made me feel so pampered. The salon is gorgeous, and I’m already planning my next visit!",
+        "author": "Liam Carter",
+        "date": "March 5, 2025",
+        "source": "yelp"
+    },
+    {
+        "stars": "★★★★☆",
+        "text": "Loved my hair coloring session! The stylist was skilled and gave me a vibrant new look. Only downside was a slight wait, but the results were worth it. Will definitely return.",
+        "author": "Emma Rodriguez",
+        "date": "March 12, 2025",
+        "source": "facebook"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "I got a facial and a manicure here, and it was pure bliss. The esthetician was amazing, and my skin has never looked better. The attention to detail is top-notch!",
+        "author": "Olivia Bennett",
+        "date": "March 18, 2025",
+        "source": "yelp"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "This salon is a hidden gem! My updo for a wedding was stunning, and the makeup artist nailed my look. Everyone was so professional and made the whole experience enjoyable.",
+        "author": "Noah Phillips",
+        "date": "March 22, 2025",
+        "source": "google"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Fantastic service from start to finish. The keratin treatment left my hair silky smooth, and the stylist gave me great tips for maintenance. I’m thrilled with the outcome!",
+        "author": "Ava Thompson",
+        "date": "March 25, 2025",
+        "source": "apple"
+    },
+    {
+        "stars": "★★★★★",
+        "text": "Hands down the best massage I’ve ever had. The therapist was incredibly skilled, and the ambiance was so relaxing. I left feeling rejuvenated and can’t wait to book again!",
+        "author": "Ethan Brooks",
+        "date": "March 28, 2025",
+        "source": "yelp"
+    }
+]

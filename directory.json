@@ -1,0 +1,284 @@
+{
+    "hair_and_makeup": [        
+        {
+            "name": "Arnold's Salon",
+            "suite": "103",
+            "image": "./img/directory/arnolds.jpeg",
+            "contacts": "Arnold Garcia - (936) 827-0996",
+            "services": ["Woman's Cuts", "Men's Cuts", "Color", "Blowouts", "Hair Care Products"],
+            "links": [
+                {"text": "Website", "url": "http://www.arnoldssalon.com/"},
+                {"text": "Facebook", "url": "https://www.facebook.com/Hairsarnold"},
+                {"text": "Instagram", "url": "https://www.instagram.com/arnoldssalon/"},
+                {"text": "X", "url": "https://x.com/ArnoldsSalon"}
+            ]
+        },              
+        {
+            "name": "Bei Capelli Salon",
+            "suite": "210",
+            "image": "./img/directory/bein-capelli.jpg",
+            "contacts": "Terri Clendennen - (281) 468-4227",
+            "services": ["Full Service Hair", "Extensions", "Keratin Treatment", "Intense Scalp/Hair Conditioning Treatments", "Facial Waxing", "Makeup"],
+            "links": [
+                {"text": "Website", "url": "https://square.site/book/3PG2TA9956W5Y/bei-capelli-salon-llc-the-woodlands-tx"},
+                {"text": "Facebook", "url": "https://www.facebook.com/beicapellisalonTW/"}
+            ]
+        },
+        {
+            "name": "German Hair Cut & Color Artist",
+            "suite": "135",
+            "image": "./img/directory/german.jpg",
+            "contacts": "German Copete - (201) 403-0164",
+            "services": ["Cut", "Style", "Color", "Balayage", "Color Correction", "Brazilian Blowout", "Deep Conditioning", "Hair Botox"],
+            "links": [
+                {"text": "Website", "url": "https://germancopete.glossgenius.com/"},
+                {"text": "Instagram", "url": "https://www.instagram.com/germancopetehouston/"}
+            ]
+        },
+        {
+            "name": "Hair by Eloisa",
+            "suite": "123",
+            "image": "./img/directory/hair-by-eloisa.jpeg",
+            "contacts": "Eloisa Toral - (832) 492-3512",
+            "services": ["Cut", "Style",  "Updo", "Brazilian Blowout", "All Over Color"],
+            "links": [
+                {"text": "Instagram", "url": "https://www.instagram.com/eloisa_toral/"},
+                {"text": "TikTok", "url": "https://www.tiktok.com/@eloisa.toral7"}
+            ]
+        },
+        {
+            "name": "iArcheZ",
+            "suite": "108",
+            "image": "./img/directory/iArcheZ.jpg",
+            "contacts": "Shikha Maura - (936) 217-3335",
+            "services": ["Brow Threading", "Tinting", "Waxing Services", "Hair", "Facial/Spa"],
+            "links": [
+                {"text": "Website", "url": "https://www.iarchez.com/"},
+                {"text": "Facebook", "url": "https://www.facebook.com/iArchez/"},
+                {"text": "X", "url": "https://x.com/iArcheZ"}
+            ]
+        },
+        {
+            "name": "J’adore Studio Salon",
+            "section": "2",
+            "image": "./img/directory/jadore-studio-salon.jpg",
+            "contacts": "Wendy Rivera - (346) 273-7040",
+            "services": ["Full Service Hair", "Balayage", "Hair Treatments", "Keratin", "Hair Botox", "Color", "Highlights", "Blowouts"],
+            "links": [
+                {"text": "Website", "url": "https://jadorestudiosalon.com/"},
+                {"text": "Facebook", "url": "https://www.facebook.com/106282225062947"},
+                {"text": "Instagram", "url": "https://www.instagram.com/Jadorestudio_salon/"},
+                {"text": "TikTok", "url": "https://www.tiktok.com/@Jadoress21"}
+            ]
+        },
+        {
+            "name": "La Moda Salon",
+            "suite": "150",
+            "image": "./img/directory/la-moda-salon.png",
+            "contacts": ["Appointments - (713) 382-2151", "Mariam Warrad - (281) 460-6499", "Angela - Hair Stylist", "Yesenia - Hair Stylist", "Kaley - Hair Stylist", "Kayla - Salon Coordinator"],
+            "services": ["Full Service Hair", "Extensions", "Hairdreams MicroLines"],
+            "links": [
+                {"text": "Website", "url": "https://lamodaspa.com/"},
+                {"text": "Facebook", "url": "https://www.facebook.com/MariamWarradLaModaSalon"},
+                {"text": "Instagram", "url": "https://www.instagram.com/lamodasalonhair/"}
+            ]
+        },
+        {
+            "name": "Luminoso Hair Studio",
+            "suite": "130",
+            "image": "./img/directory/luminoso-hair-studio.jpg",
+            "contacts": ["Maria Perez - (281) 914-9252", "Lacey Gutierrez - Stylist", "Isabella - Assistant Stylist"],
+            "services": ["Specializing in Lived-In Blondes & Brondes", "Corrective Color", "Hair Extensions"],
+            "links": [
+                {"text": "Website", "url": "https://www.luminosohairstudio.com/"},
+                {"text": "Facebook", "url": "https://www.facebook.com/luminosohairstudio/"},
+                {"text": "Instagram", "url": "https://www.instagram.com/luminosohs/"},
+                {"text": "TikTok", "url": "https://www.tiktok.com/@luminosohs"}
+            ]
+        },
+        {
+            "name": "M4 Studio Salon",
+            "suite": "104",
+            "image": "./img/directory/m4-studio-salon.jpg",
+            "contacts": ["Mariam Chancellor - (832) 940-8682", "Sydney - Assistant Stylist", "Madison - Assistant Stylist", "Peyton - Assistant Stylist"],
+            "services": ["Full Service Hair", "Extensions", "Makeup"],
+            "links": [
+                {"text": "Facebook", "url": "https://www.facebook.com/M4studiosalon/"},
+                {"text": "Instagram", "url": "https://www.instagram.com/m4studio_salon/"}
+            ]
+        },
+        {
+            "name": "Maida's Haircuts",
+            "section": "1",
+            "image": "./img/directory/maida-bautista.jpg",
+            "contacts": "Maida Bautista - (832) 963-0210",
+            "services": ["Cut", "Style", "Color", "Highlights", "Deep Conditioning", "Hair Treatments", "Face Waxing"],
+            "links": [
+                {"text": "Instagram", "url": "https://www.instagram.com/maidabautista/"}
+            ]
+        },
+        {
+            "name": "Marci Henderson",
+            "suite": "109",
+            "image": "./img/directory/stylist1.jpg",
+            "contacts": "Marci Henderson - (832) 585-6322",
+            "services": ["Full Service Hair", "Color Specialist", "Extensions", "Waxing"],
+            "links": []
+        },
+        {
+            "name": "Norma's Hair Salon",
+            "section": "2",
+            "image": "./img/directory/norma-guerrero.png",
+            "contacts": "Norma Guerrero - (281) 590-4009",
+            "services": ["Full Service Hair", "Color", "Highlights", "Updos", "Perms", "Gloss", "Face Waxing", "Makeup"],
+            "links": []
+        },
+        {
+            "name": "The Paint Palette Hair Color Studio",
+            "suite": "100",
+            "image": "./img/directory/paint-palette-hair-color-studio.png",
+            "contacts": "Angela Shimmel - (281) 844-4674",
+            "services": ["Color Specialist", "Style", "Brazilian Blowout"],
+            "links": [
+                {"text": "Facebook", "url": "https://www.facebook.com/p/The-Paint-Palette-Hair-Color-Studio-100067469991126/"}
+            ]
+        },
+        {
+            "name": "Jessica Ramon",
+            "section": "3",
+            "image": "./img/directory/stylist5.jpg",
+            "contacts": "Jessica Ramon - (713) 562-1538",
+            "services": ["Men/Boys Cuts", "Beard Trim", "Stylist Razor Shave"],
+            "links": []
+        },
+        {
+            "name": "Snapdragon Salon",
+            "suite": "140",
+            "image": "./img/directory/snapdragon-salon.jpeg",
+            "contacts": "Sissy Silar - (832) 823-8851",
+            "services": ["Full Service Hair", "Women's Cuts", "Men's Cuts", "Children's Cuts", "Color", "Men's Gray Camouflage", "Highlights", "Balayage", "Hair Extensions", "Brazilian Blowout", "Event Styles", "Waxing"],
+            "links": [
+                {"text": "Website", "url": "https://www.salonsnapdragon.com/"},
+                {"text": "Instagram", "url": "https://www.instagram.com/hairbysissys/"}
+            ]
+        },
+        {
+            "name": "SOZO Hair Design",
+            "suite": "200",
+            "image": "./img/directory/sozo-hair-design.png",
+            "contacts": ["Appointments - (281) 203-5063", "Troy Rothrock - Master Stylist", "Karlie Hay - Stylist", "Amanda Pilotte - Stylist", "Amerena - Stylist", "Cassie - Salon Coordinator"],
+            "services": ["Full Service Hair", "Makeup"],
+            "links": [
+                {"text": "Website", "url": "https://sozosalon.com/"},
+                {"text": "Facebook", "url": "https://www.facebook.com/sozohairdesignthewoodlands"},
+                {"text": "Instagram", "url": "https://www.instagram.com/sozo_hair_design/"},
+                {"text": "Pinterest", "url": "https://www.pinterest.com/sozohair/"}
+            ]
+        },
+        {
+            "name": "Thairapy",
+            "suite": "113",
+            "image": "./img/directory/thairapy.jpg",
+            "contacts": "Kristin Gallipeau - (832) 381-6866",
+            "services": ["Full Service Hair", "Makeup"],
+            "links": [
+                {"text": "Instagram", "url": "https://www.instagram.com/thairapybykris/"}
+            ]
+        },
+        {
+            "name": "Ashley\nThompson-Vergara",
+            "suite": "220",
+            "image": "./img/directory/stylist2.jpg",
+            "contacts": "Stylist - (936) 203-8880",
+            "services": ["Full Service Hair", "Extensions", "Brazilian Blowout", "Makeup"],
+            "links": []
+        },
+        {
+            "name": "Tish Hair and Spa",
+            "suite": "106",
+            "image": "./img/directory/tish-hair-and-spa.jpg",
+            "contacts": "Tish Hines - (346) 243-9175",
+            "services": ["Full Service Hair", "Extensions", "Skin Care Products"],
+            "links": [
+                {"text": "Website", "url": "https://www.styleseat.com/m/v/tishhines"}
+            ]
+        },  
+        {
+            "name": "Amanda Wade",
+            "section": "3",
+            "image": "./img/directory/stylist4.jpg",
+            "contacts": "Stylist - (713) 384-9741",
+            "services": ["Men/Boys Cuts", "Beard Trim", "Stylist Razor Shave", "Facial"],
+            "links": []
+        }
+    ],
+    "stylists": [
+        "First Last - (555) 555-5555",
+        "Michael Reed - (281) 555-2346",
+        "Lauren Hill - (281) 555-6780",
+        "David Carter - (281) 555-1235"
+    ],
+    "spa_and_wellness": [
+        {
+            "name": "Aestetika Skin Care\nand Electrolysis",
+            "suite": "170",
+            "image": "./img/directory/aestetika-skin.png",
+            "contacts": ["Martha Sanabria - (713) 714-0737"],
+            "services": ["Facial/Spa", "Microcurrent Treatment", "Electrolysis (Permanent Hair Removal)", "Microdermabrasion"],
+            "links": [{"text": "Website", "url": "https://thewoodlandsskincare.com/"}]
+        },
+        {
+            "name": "Kelly's Beauty Room",
+            "suite": "175",
+            "image": "./img/directory/nails1.jpg",
+            "contacts": "Kelly Nguyen - (832) 916-7534",
+            "services": ["Nail Care (Mani/Pedi)", "Lashes", "Waxing"],
+            "links": []
+        },
+        {
+            "name": "Pink Lotus Salon",
+            "suite": "112",
+            "image": "./img/directory/pink-lotus-salon.jpg",
+            "contacts": "Sonia Zamora - (936) 648-5820",
+            "services": ["Nail Care (Mani/Pedi)", "Acrylics", "Shellac Gel Polish", "Dipping Powder"],
+            "links": []
+        },
+        {
+            "name": "Total Wax by Nina",
+            "suite": "185",
+            "image": "./img/directory/total-wax-by-nina.jpg",
+            "contacts": "Nina Ryan - (832) 803-3455",
+            "services": ["Brazilian Waxing (Full Body)", "Swedish Massage", "Facial"],
+            "links": [
+                {"text": "Website", "url": "https://totalwaxbynina.com/"},
+                {"text": "Facebook", "url": "https://www.facebook.com/Totalwax/"},
+                {"text": "Instagram", "url": "https://www.instagram.com/Totalwaxbynina/"},
+                {"text": "YouTube", "url": "https://www.youtube.com/@totalwaxbynina9178/"}
+            ]
+        },
+        {
+            "name": "Trinity Stones Massage",
+            "suite": "180",
+            "image": "./img/directory/trinity-stones-massage.jpg",
+            "contacts": "Rachel Gamez - (936) 330-7647",
+            "services": ["Massage Therapy", "Swedish Massage", "Deep Tissue Massage", "Prenatal Massage", "Hot Stone Massage", "Aromatherapy", "Cupping"],
+            "links": [
+                {"text": "Website", "url": "https://www.massagebook.com/therapists/trinity-stones-massage"},
+                {"text": "Facebook", "url": "https://www.facebook.com/Trinitystonesmassage"},
+                {"text": "Instagram", "url": "https://www.instagram.com/trinity.stones/"}
+            ]
+        }
+    ],
+    "retail": [
+        {
+            "name": "Audrey Paige Boutique",
+            "image": "./img/directory/audrey-paige.png",
+            "contacts": ["Jessica Chappalear - (281) 202-4843"],
+            "services": ["Clothing", "Gifts", "Accessories"],
+           "links": [
+                {"text": "Website", "url": "https://audrey-paige-boutique.square.site/"},
+                {"text": "Instagram", "url": "https://www.instagram.com/audrey_paige_boutique/"}
+            ]
+        }
+    ]
+}

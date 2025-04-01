@@ -1,0 +1,1168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the fixed header (for reference, ensure it’s fixed) */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px; /* Adjust this if your header height differs */
+    background-color: #fff; /* Example, match your design */
+    z-index: 1000;
+}
+
+.header {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5em;
+    text-align: center;
+    background: linear-gradient(to right, #a77bd2, #f7a8c9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subheader {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #666;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5dc;
+    padding: 15px 20px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-menu a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #333;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1em;
+}
+
+.nav-menu a:hover {
+    color: #a77bd2;
+}
+
+.nav-extra {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.leasing-button {
+    display: inline-flex; /* Ensures text and icons align properly */
+    align-items: center;
+    justify-content: center; /* Centers content */
+    padding: 8px 20px;
+    background-color: #a77bd2;
+    color: #fff !important; /* Forces white text */
+    text-decoration: none !important; /* Prevents underlining */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.leasing-button * {
+    color: inherit !important; /* Ensures all child elements (e.g., spans, icons) are white */
+}
+
+.leasing-button:hover {
+    background-color: #f7a8c9;
+    color: #fff !important; /* Ensures text stays white on hover */
+}
+
+.phone-social {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.phone-number {
+    color: #333;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.facebook-link svg {
+    vertical-align: middle;
+}
+
+.facebook-link:hover svg {
+    fill: #a77bd2;
+}
+
+#home {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./img/home/background-image.jpg') no-repeat center center/cover;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 270px 40px 0 40px;
+    color: #fff;
+}
+
+.home-content {
+    text-align: right;
+    max-width: 600px;
+    padding-bottom: 20px;
+}
+
+.location {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+}
+
+.welcome-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.home-content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+#hours {
+    background-color: #e6d8f0;
+    padding: 60px 40px;
+}
+
+.hours-list {
+    list-style: none;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    display: grid;
+    grid-template-columns: minmax(120px, auto) 1fr; /* Fixed width for days, flexible for times */
+    gap: 10px 20px; /* Vertical gap between rows, horizontal gap between columns */
+}
+
+.hours-list li {
+    display: contents; /* Allows spans to use grid layout */
+    margin: 0; /* Remove default margin */
+}
+
+.hours-list .day {
+    text-align: right;
+    color: #333;
+}
+
+.hours-list .time {
+    text-align: left;
+    color: #666;
+}
+
+.hours-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.hours-text {
+    flex: 1;
+    color: #333;
+}
+
+.hours-image {
+    flex: 1;
+    position: relative;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.hours-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #a77bd2;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#reviews {
+    background-color: #f5f5dc;
+    padding: 60px 40px;
+}
+
+.reviews-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reviews-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    color: #a77bd2;
+    margin-bottom: 30px;
+}
+
+.reviews-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 30px;
+    padding: 0 20px;
+    scroll-behavior: smooth;
+}
+
+.reviews-carousel::-webkit-scrollbar {
+    height: 8px;
+}
+
+.reviews-carousel::-webkit-scrollbar-thumb {
+    background-color: #a77bd2;
+    border-radius: 4px;
+}
+
+.review-item {
+    min-width: 350px;
+    max-width: 450px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 25px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.stars {
+    color: #f7a8c9;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.review-source-logo {
+    width: 20px; /* Slightly smaller than social icons for inline fit */
+    vertical-align: middle;
+    margin-right: 5px; /* Space between logo and stars */
+}
+
+.review-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    flex-grow: 1;
+    overflow: hidden; /* Changed from overflow-y: auto */
+    text-overflow: ellipsis; /* Adds ... for overflow */
+    display: -webkit-box; /* For multi-line truncation */
+    -webkit-line-clamp: 8; /* Limits to 8 lines, adjust as needed */
+    -webkit-box-orient: vertical; /* Vertical box orientation */
+    max-height: 12em; /* Approx 8 lines at 1em font-size with line-height 1.6 */
+}
+
+.review-meta {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: auto;
+}
+
+/* Container for review buttons */
+.review-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between buttons */
+    margin-top: 40px;
+    flex-wrap: wrap; /* Wrap buttons on smaller screens */
+}
+
+/* Base button styles */
+.review-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a77bd2;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between logo and text */
+}
+
+.review-button:hover {
+    background-color: #f7a8c9;
+}
+
+/* Specific button adjustments */
+.google-button svg,
+.apple-button svg,
+.yelp-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+#salon-directory-header {
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./img/home/salon-directory-bg.jpg') no-repeat center center/cover;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.directory-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+#salon-directory-list {
+    padding: 60px 40px;
+    background-color: #f5f5dc;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    color: #a77bd2;
+    margin-bottom: 30px;
+}
+
+.salon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+}
+
+.salon-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    color: #333;
+}
+
+.salon-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.salon-image {
+    height: 175px; /* Fixed height for consistency */
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.salon-image img {
+    height: 175px; /* Matches container height */
+    max-width: 100%; /* Prevents overflow */
+    object-fit: contain; /* Scales image to fit within height, preserving aspect ratio */
+    display: block; /* Ensures centering works */
+}
+
+.salon-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #a77bd2;
+}
+
+.salon-location {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    color: #666;
+    margin: 2px 0 10px 0;
+    text-align: center;
+}
+
+.salon-contacts p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.salon-services {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #333;
+    margin: 10px 0;
+    word-wrap: break-word;
+}
+
+.salon-links {
+    margin-top: 10px;
+}
+
+.salon-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 8px;
+    color: #a77bd2;
+}
+
+.salon-links a:hover {
+    color: #f7a8c9;
+}
+
+.salon-links a:hover svg {
+    fill: #f7a8c9; /* Applies pink hover to Website SVG */
+}
+
+.salon-links svg {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}
+
+.stylist-list {
+    max-width: 600px;
+    margin: 0 auto 40px auto; /* Centers the block horizontally */
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) minmax(150px, 1fr); /* Equal columns for symmetry */
+    gap: 10px 20px; /* Consistent spacing */
+    justify-items: center; /* Centers items within each grid cell */
+    text-align: center; /* Centers text within cells */
+}
+
+.stylist-list li {
+    display: contents; /* Allows spans to use grid layout */
+    margin: 0;
+}
+
+.stylist-list .name {
+    color: #333;
+}
+
+.stylist-list .number {
+    color: #666;
+}
+
+#services {
+    background-color: #fafafa;
+    padding: 60px 40px;
+}
+
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.divider {
+    width: 60px;
+    height: 2px;
+    background-color: #a77bd2;
+    margin: 0 auto 20px;
+    border-radius: 1px;
+}
+
+.services-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.services-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.services-text {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    color: #333;
+}
+
+.services-text p {
+    margin-bottom: 15px;
+}
+
+.services-text em {
+    font-style: italic;
+}
+
+/* Default desktop layout */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-image {
+    border-radius: 50%; /* Round images */
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1; /* Square shape for circular effect */
+    object-fit: cover; /* Fill the circle */
+}
+
+/* Mobile layout: 2 columns with centered last row */
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr); /* Strict 2 columns */
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .service-item {
+        font-size: 14px; /* Optional: adjust text size */
+    }
+
+    .service-image {
+        border-radius: 50%; /* Ensure roundness on mobile */
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
+    /* Center the last item if it’s alone (odd count) */
+    .service-item:last-child:nth-child(odd) {
+        grid-column: 1 / -1; /* Span both columns */
+        justify-self: center; /* Center within the span */
+        max-width: 50%; /* Limit width */
+    }
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #333;
+}
+
+.service-list li {
+    margin: 8px 0;
+}
+
+#products {
+    background-color: #f5f5dc;
+    padding: 60px 40px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.products-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.products-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product-item {
+    position: relative;
+    width: 150px;
+}
+
+.product-image {
+    width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover .product-image {
+    transform: scale(1.05);
+}
+
+.product-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    padding: 8px 15px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.product-item:hover .product-name {
+    opacity: 1;
+}
+
+#policies-header {
+    margin-top: 150px; /* Matches the fixed header height */
+    height: calc(80vh - 150px); /* Remaining viewport height */
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./img/home/salon-policies.jpg') no-repeat center center/cover;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#leasing-header {
+    margin-top: 150px; /* Matches the fixed header height */
+    height: calc(80vh - 150px); /* Remaining viewport height */
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./img/home/leasing.jpg') no-repeat center center/cover;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leasing-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+#leasing-content {
+    padding: 60px 40px;
+    background-color: #fff;
+}
+
+.leasing-container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.leasing-container h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 2em;
+    color: #a77bd2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.leasing-highlight {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.leasing-container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.leasing-container h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #a77bd2;
+    margin: 30px 0 15px;
+}
+
+.leasing-benefits, .leasing-professions {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.leasing-benefits li, .leasing-professions li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.leasing-benefits li strong {
+    color: #a77bd2;
+}
+
+.leasing-container a {
+    color: #a77bd2;
+    text-decoration: none;
+}
+
+.leasing-container a:hover {
+    text-decoration: underline;
+}
+
+#contact {
+    background-color: #fff;
+    padding: 60px 40px;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-image {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+}
+
+.contact-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+.contact-address, .contact-phone {
+    text-align: left;
+}
+
+.contact-address h3, .contact-phone h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #a77bd2;
+    margin-bottom: 10px;
+}
+
+.contact-address p, .contact-phone p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.contact-map {
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    border: 0;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+    .fixed-header {
+        height: 120px; /* Adjust if mobile header is shorter */
+    }
+
+    .header {
+        font-size: 2em;
+    }
+
+    .subheader {
+        font-size: 1em;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #f5f5dc;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 10px 0;
+        max-height: calc(100vh - 120px - 20px); /* Subtract header height + padding */
+        overflow-y: hidden;
+        box-sizing: border-box; /* Ensure padding is included in height calc */
+    }
+
+    .nav-menu.active {
+        display: flex;
+        overflow-y: scroll; /* Always show scrollbar when active and overflowing */
+    }
+
+    .nav-menu::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .nav-menu::-webkit-scrollbar-thumb {
+        background-color: #a77bd2;
+        border-radius: 4px;
+    }
+
+    .nav-menu a {
+        margin: 8px 0;
+        font-size: 1em;
+        padding: 0 20px; /* Optional: consistent horizontal padding */
+    }
+
+    .nav-extra {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .leasing-button {
+        padding: 6px 12px;
+        font-size: 0.9em;
+    }
+
+    .phone-social {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .phone-number {
+        font-size: 0.9em;
+    }
+
+    .facebook-link svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    #home {
+        padding: 200px 20px 0 20px;
+    }
+
+    .hours-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hours-image {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .image-overlay {
+        font-size: 1.2em;
+        padding: 10px 20px;
+    }
+
+    .salon-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .services-title {
+        font-size: 2.5em;
+    }
+
+    .services-subtitle {
+        font-size: 1em;
+    }
+
+    .service-item {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .products-title {
+        font-size: 2.5em;
+    }
+
+    .products-subtitle {
+        font-size: 1em;
+    }
+
+    .product-item {
+        width: 130px;
+    }
+
+    .product-image {
+        width: 130px;
+        max-height: 130px;
+    }
+
+    .contact-title {
+        font-size: 2.5em;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .contact-address, .contact-phone {
+        text-align: center;
+    }
+
+    .contact-map {
+        height: 300px;
+    }
+
+    #leasing-header {
+        margin-top: 120px;
+        height: calc(80vh - 120px);
+    }
+
+    .leasing-title {
+        font-size: 2em;
+        padding: 15px;
+    }
+
+    .leasing-container h3 {
+        font-size: 1.8em;
+    }
+
+    .leasing-highlight {
+        font-size: 1em;
+    }
+
+    .leasing-container h4 {
+        font-size: 1.3em;
+    }
+
+    .reviews-title {
+        font-size: 2em;
+    }
+
+    .reviews-carousel {
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .review-item {
+        min-width: 330px; /* Increased from 280px */
+        max-width: 340px; /* Increased from 320px */
+        padding: 20px;
+        max-height: 350px;
+    }
+
+    .review-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center buttons horizontally */
+        gap: 5px; /* Tighter spacing between buttons */
+        margin-top: 15px; /* Reduced top margin for compactness */
+        padding: 0 10px; /* Small padding to prevent edge overlap */
+    }
+
+    .review-button {
+        padding: 6px 10px; /* Base padding */
+        font-size: 0.85em; /* Smaller font for compactness */
+        width: 210px; /* Fixed width matching longest button ("👍 Rate on Apple Maps") */
+        max-width: 210px; /* Ensure consistency */
+        white-space: nowrap; /* Prevent text wrapping */
+        justify-content: center; /* Center content within button */
+    }
+
+    .apple-button {
+        padding: 6px 10px; /* Consistent padding with others */
+        font-size: 0.85em; /* Matches others, fits on one line */
+    }
+
+    .google-button svg,
+    .apple-button svg,
+    .yelp-button svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Remove underline from tel: links in header and contact */
+.phone-social a.phone-number,
+.contact-phone a {
+    text-decoration: none !important;
+}
+
+.phone-social a.phone-number:hover,
+.phone-social a.phone-number:active,
+.phone-social a.phone-number:visited,
+.contact-phone a:hover,
+.contact-phone a:active,
+.contact-phone a:visited {
+    text-decoration: none !important;
+}
+
+/* Remove underline from tel: links in salon tiles */
+.salon-contacts a {
+    text-decoration: none !important;
+}
+
+.salon-contacts a:hover,
+.salon-contacts a:active,
+.salon-contacts a:visited {
+    text-decoration: none !important;
+}
+
+/* Remove underline from tel: links in stylists list */
+.stylist-list .number a {
+    text-decoration: none !important;
+}
+
+.stylist-list .number a:hover,
+.stylist-list .number a:active,
+.stylist-list .number a:visited {
+    text-decoration: none !important;
+}
+
+/* Remove underline from h1 header link */
+.header a {
+    text-decoration: none !important;
+}
+
+.header a:hover,
+.header a:active,
+.header a:visited {
+    text-decoration: none !important;
+}
+
+#visitor-counter {
+    display: none;
+}

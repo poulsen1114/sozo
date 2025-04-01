@@ -1,0 +1,17 @@
+[
+    {
+        "name": "ZENZ Organic",
+        "image": "./img/products/zenz.jpg",
+        "url": "https://organicshampoo.best/"
+    },
+    {
+        "name": "KEVIN MURPHY",
+        "image": "./img/products/kevin-murphy.jpg",
+        "url": "https://kevinmurphy.com.au/"
+    },
+    {
+        "name": "Moroccanoil",
+        "image": "./img/products/moroccanoil.webp",
+        "url": "https://www.moroccanoil.com/"
+    }
+]

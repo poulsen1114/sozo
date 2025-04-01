@@ -1,0 +1,77 @@
+[
+    {
+        "category": "Haircuts",
+        "image": "./img/services/01-haircuts.jpg",
+        "items": ["Men's Cuts", "Women's Cuts", "Children's Cuts"]
+    },
+    {
+        "category": "Coloring",
+        "image": "./img/services/02-coloring.jpg",
+        "items": ["Full Color", "Highlights", "Balayage", "Ombre"]
+    },
+    {
+        "category": "Styling",
+        "image": "./img/services/03-styling.jpg",
+        "items": ["Blowouts", "Updos", "Special Event Styling"]
+    },
+    {
+        "category": "Extensions",
+        "image": "./img/services/04-extensions.jpg",
+        "items": ["Tape-In Extensions", "Clip-In Extensions", "Keratin Bond Extensions"]
+    },
+    {
+        "category": "Hair Treatments",
+        "image": "./img/services/05-hair-treatment.jpg",
+        "items": ["Keratin Treatments", "Deep Conditioning", "Scalp Treatments"]
+    },
+    {
+        "category": "Bridal Makeup",
+        "image": "./img/services/06-bridal.jpg",
+        "items": ["Bridal Trials", "Wedding Day Makeup", "Bridesmaid Makeup"]
+    },
+    {
+        "category": "Makeup",
+        "image": "./img/services/07-makeup.jpg",
+        "items": ["Contouring", "Evening Makeup", "Makeup Lessons"]
+    },
+    {
+        "category": "Nails",
+        "image": "./img/services/08-nails.jpg",
+        "items": ["Manicures", "Pedicures", "Nail Art"]
+    },
+    {
+        "category": "Massage",
+        "image": "./img/services/09-massage.jpg",
+        "items": ["Deep Tissue", "Swedish Massage", "Hot Stone"]
+    },
+    {
+        "category": "Facials",
+        "image": "./img/services/10-facials.jpg",
+        "items": ["Hydrating Facials", "Anti-Aging Facials", "Acne Treatments"]
+    },
+    {
+        "category": "Botox",
+        "image": "./img/services/11-botox.jpg",
+        "items": ["Forehead Lines", "Crow's Feet", "Frown Lines"]
+    },
+    {
+        "category": "Aromatherapy",
+        "image": "./img/services/12-aromatherapy.jpg",
+        "items": ["Essential Oil Massage", "Aroma Steam", "Custom Blends"]
+    },
+    {
+        "category": "Reflexology",
+        "image": "./img/services/13-reflexology.jpg",
+        "items": ["Foot Reflexology", "Hand Reflexology", "Stress Relief"]
+    },
+    {
+        "category": "Body Wraps",
+        "image": "./img/services/14-body-wraps.jpeg",
+        "items": ["Detox Wraps", "Hydrating Wraps", "Slimming Wraps"]
+    },
+    {
+        "category": "Skincare",
+        "image": "./img/services/15-skincare.jpg",
+        "items": ["Chemical Peels", "Microdermabrasion", "Custom Skincare Plans"]
+    }
+]

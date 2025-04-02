@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Instead of calling scrollToSection immediately,
                 // wrap it in a setTimeout to give the browser a moment
                 // for rendering/layout stabilization after header load.
-                console.log(`Waiting ${150}ms before scrolling...`); // Debug log
+                console.log(`Waiting ${300}ms before scrolling...`); // Debug log
                 setTimeout(() => {
                     console.log(`Timeout finished. Attempting scroll to #${targetId}`); // Debug log
                     // These two lines are now executed AFTER the delay
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // It's generally safer to remove the item *after* attempting the scroll
                     sessionStorage.removeItem('scrollToSection');
                     console.log(`SessionStorage 'scrollToSection' removed.`); // Debug log
-                }, 150); // <--- Adjust this delay (e.g., 100, 150, 250ms) if needed
+                }, 300); // <--- Adjust this delay (e.g., 100, 150, 250ms) if needed
                 // *** END OF SOLUTION 3 IMPLEMENTATION ***
 
             } else {

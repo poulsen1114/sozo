@@ -17,13 +17,16 @@ body {
 
 /* Style for the fixed header (for reference, ensure it’s fixed) */
 .fixed-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* No space between elements */
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 150px; /* Adjust this if your header height differs */
-    background-color: #fff; /* Example, match your design */
+    background-color: #fff;
     z-index: 1000;
+    padding: 20px 0 0 0;
 }
 
 .header {
@@ -33,6 +36,8 @@ body {
     background: linear-gradient(to right, #a77bd2, #f7a8c9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: 0 0 5px 0;
+    padding: 0 20px;
 }
 
 .subheader {
@@ -41,17 +46,20 @@ body {
     color: #666;
     font-size: 1.2em;
     text-align: center;
-    margin-top: 10px;
+    margin: 0 0 20px 0; /* Restore the original 10px bottom margin */
+    padding: 0 20px;
+    line-height: 1.2;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f5f5dc;
+    background-color: #f5f5dc; /* Beige background */
     padding: 15px 20px;
-    margin-top: 15px;
-    position: relative;
+    margin-top: 0; /* No gap above */
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .hamburger {
@@ -910,22 +918,25 @@ body {
 /* Mobile responsiveness */
 @media (max-width: 1024px) {
     .fixed-header {
-        height: 120px; /* Adjust if mobile header is shorter */
+        padding: 15px 0 0 0;
     }
 
     .header {
         font-size: 2em;
+        margin: 0 0 5px 0;
+        padding: 0 20px;
     }
 
     .subheader {
         font-size: 1em;
+        margin: 0 0 16px 0; /* Restore the original 8px bottom margin for mobile */
+        padding: 0 20px;
+        line-height: 1.1;
     }
 
     .nav-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         padding: 10px 20px;
+        margin-top: 0;
     }
 
     .hamburger {
@@ -994,7 +1005,7 @@ body {
     }
 
     #home {
-        padding: 200px 20px 0 20px;
+        padding: 100px 20px 0 20px;
     }
 
     .hours-container {

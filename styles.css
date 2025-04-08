@@ -925,7 +925,7 @@ body {
     }
 
     .header {
-        font-size: clamp(1.8em, 5vw, 2em); /* Increase minimum from 1.5em to 1.8em */
+        font-size: clamp(1.8em, 5vw, 2rem); /* Use rem for the max value */
         margin: 0 0 5px 0;
         padding: 0 20px;
         white-space: nowrap;

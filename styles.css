@@ -57,11 +57,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f5f5dc; /* Beige background */
+    background-color: #f5f5dc;
     padding: 15px 20px;
-    margin-top: 0; /* No gap above */
+    margin-top: 0;
     width: 100%;
     box-sizing: border-box;
+    flex-wrap: nowrap; /* Prevent wrapping of .nav-menu and .nav-extra */
 }
 
 .hamburger {
@@ -77,6 +78,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    flex-wrap: nowrap; /* Prevent wrapping */
 }
 
 .nav-menu a {
@@ -86,6 +88,8 @@ body {
     text-decoration: none;
     margin: 0 20px;
     font-size: 1.1em;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .nav-menu a:hover {
@@ -96,6 +100,8 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .leasing-button {
@@ -111,6 +117,7 @@ body {
     font-size: 1.1em;
     border-radius: 4px;
     transition: background-color 0.3s ease;
+    white-space: nowrap; /* Prevent text wrapping inside button */
 }
 
 .leasing-button * {
@@ -132,6 +139,7 @@ body {
     color: #333;
     font-size: 1.1em;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .facebook-link svg {
@@ -918,7 +926,7 @@ body {
 }
 
 /* Mobile responsiveness */
-@media (max-width: 1024px) {
+@media (max-width: 1300px) {
     .fixed-header {
         padding: 15px 0 0 0;
         min-height: 12vh; /* Slightly smaller for mobile */

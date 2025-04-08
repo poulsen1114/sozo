@@ -1009,7 +1009,7 @@ body {
     }
 
     #home {
-        padding: 20vh 20px 0 20px; /* 20% of viewport height for mobile */
+        padding: 25vh 20px 0 20px; /* 20% of viewport height for mobile */
     }
 
     .hours-container {

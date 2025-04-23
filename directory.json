@@ -188,10 +188,13 @@
         {
             "name": "Ashley\nThompson-Vergara",
             "suite": "220",
-            "image": "./img/directory/stylist2.jpg",
+            "image": "./img/directory/ashley-thompson-vergara.jpg",
             "contacts": "Stylist - (936) 203-8880",
             "services": ["Full Service Hair", "Extensions", "Brazilian Blowout", "Makeup"],
-            "links": []
+            "links": [
+                {"text": "Website", "url": "https://www.styleseat.com/m/v/ashleythompson9"},
+                {"text": "Instagram", "url": "https://www.instagram.com/ashleyvergarastylist/"}
+            ]
         },
         {
             "name": "Tish Hair and Spa",

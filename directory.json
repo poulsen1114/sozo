@@ -131,7 +131,9 @@
             "image": "./img/directory/norma-guerrero.png",
             "contacts": "Norma Guerrero - (281) 590-4009",
             "services": ["Full Service Hair", "Color", "Highlights", "Updos", "Perms", "Gloss", "Face Waxing", "Makeup"],
-            "links": []
+            "links": [
+                {"text": "Website", "url": "https://normas-hair-salon.square.site/"}
+            ]
         },
         {
             "name": "The Paint Palette Hair Color Studio",

@@ -443,13 +443,6 @@ body {
     color: #333;
 }
 
-.salon-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-    margin-bottom: 15px;
-}
-
 .salon-image {
     height: 175px; /* Fixed height for consistency */
     margin-bottom: 10px;
@@ -460,10 +453,12 @@ body {
 }
 
 .salon-image img {
-    height: 175px; /* Matches container height */
-    max-width: 100%; /* Prevents overflow */
-    object-fit: contain; /* Scales image to fit within height, preserving aspect ratio */
-    display: block; /* Ensures centering works */
+    height: 175px;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: block;
 }
 
 .salon-title {

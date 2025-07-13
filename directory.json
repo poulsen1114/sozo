@@ -110,11 +110,12 @@
         {
             "name": "Maida's Haircuts",
             "section": "1",
-            "image": "./img/directory/maida-bautista.jpg",
+            "image": "./img/directory/maida-bautista.png",
             "contacts": "Maida Bautista - (832) 963-0210",
             "services": ["Cut", "Style", "Color", "Highlights", "Deep Conditioning", "Hair Treatments", "Face Waxing"],
             "links": [
-                {"text": "Instagram", "url": "https://www.instagram.com/maidabautista/"}
+                {"text": "Website", "url": "https://maidashaircuts.square.site/"},
+                {"text": "Instagram", "url": "https://www.instagram.com/maidashaircuts/"}
             ]
         },
         {

@@ -274,17 +274,5 @@
                 {"text": "Instagram", "url": "https://www.instagram.com/trinity.stones/"}
             ]
         }
-    ],
-    "retail": [
-        {
-            "name": "Audrey Paige Boutique",
-            "image": "./img/directory/audrey-paige.png",
-            "contacts": ["Jessica Chappalear - (281) 202-4843"],
-            "services": ["Clothing", "Gifts", "Accessories"],
-           "links": [
-                {"text": "Website", "url": "https://audrey-paige-boutique.square.site/"},
-                {"text": "Instagram", "url": "https://www.instagram.com/audrey_paige_boutique/"}
-            ]
-        }
     ]
 }

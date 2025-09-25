@@ -23,18 +23,7 @@
                 {"text": "Website", "url": "https://square.site/book/3PG2TA9956W5Y/bei-capelli-salon-llc-the-woodlands-tx"},
                 {"text": "Facebook", "url": "https://www.facebook.com/beicapellisalonTW/"}
             ]
-        },
-        {
-            "name": "German Hair Cut & Color Artist",
-            "suite": "135",
-            "image": "./img/directory/german.jpg",
-            "contacts": "German Copete - (201) 403-0164",
-            "services": ["Cut", "Style", "Color", "Balayage", "Color Correction", "Brazilian Blowout", "Deep Conditioning", "Hair Botox"],
-            "links": [
-                {"text": "Website", "url": "https://germancopete.glossgenius.com/"},
-                {"text": "Instagram", "url": "https://www.instagram.com/germancopetehouston/"}
-            ]
-        },
+        },        
         {
             "name": "Hair by Eloisa",
             "suite": "123",
@@ -198,17 +187,7 @@
                 {"text": "Website", "url": "https://www.styleseat.com/m/v/ashleythompson9"},
                 {"text": "Instagram", "url": "https://www.instagram.com/ashleyvergarastylist/"}
             ]
-        },
-        {
-            "name": "Tish Hair and Spa",
-            "suite": "106",
-            "image": "./img/directory/tish-hair-and-spa.jpg",
-            "contacts": "Tish Hines - (346) 243-9175",
-            "services": ["Full Service Hair", "Extensions", "Skin Care Products"],
-            "links": [
-                {"text": "Website", "url": "https://www.styleseat.com/m/v/tishhines"}
-            ]
-        },  
+        },         
         {
             "name": "Amanda Wade",
             "section": "3",

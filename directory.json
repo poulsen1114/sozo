@@ -140,7 +140,7 @@
             "section": "3",
             "image": "./img/directory/stylist5.jpg",
             "contacts": "Jessica Ramon - (713) 562-1538",
-            "services": ["Men/Boys Cuts", "Beard Trim", "Stylist Razor Shave"],
+            "services": ["Men/Boys' Cuts", "Beard Trim", "Stylist Razor Shave"],
             "links": []
         },
         {
@@ -181,7 +181,7 @@
             "name": "Ashley\nThompson-Vergara",
             "suite": "220",
             "image": "./img/directory/ashley-thompson-vergara.jpg",
-            "contacts": "Stylist - (936) 203-8880",
+            "contacts": "Ashley - (936) 203-8880",
             "services": ["Full Service Hair", "Extensions", "Brazilian Blowout", "Makeup"],
             "links": [
                 {"text": "Website", "url": "https://www.styleseat.com/m/v/ashleythompson9"},
@@ -192,9 +192,22 @@
             "name": "Amanda Wade",
             "section": "3",
             "image": "./img/directory/stylist4.jpg",
-            "contacts": "Stylist - (713) 384-9741",
-            "services": ["Men/Boys Cuts", "Beard Trim", "Stylist Razor Shave", "Facial"],
+            "contacts": "Amanda Wade - (713) 384-9741",
+            "services": ["Men's/Boys' Cuts", "Beard Trim", "Stylist Razor Shave", "Facial"],
             "links": []
+        },
+        {
+            "name": "The YK's Hair Studio",
+            "suite": "106",
+            "image": "./img/directory/the-yks-hair-salon.jpg",
+            "contacts": "Jaya - (331) 330-1800",
+            "services": ["Hair Cuts", "Women's", "Men's", "Children's", "Hair Coloring & Highlights", "Hair Treatments", "Blowouts & Styling", "Gloss", "Perms", "Keratin Treatments & More"],
+            "links": [
+                {"text": "Website", "url": "https://www.theykshairstudio.com"},
+                {"text": "Facebook", "url": "https://www.facebook.com/TheYKsHairStudio"},
+                {"text": "Instagram", "url": "https://www.instagram.com/theykshairstudio"},
+                {"text": "Pinterest", "url": "https://www.pinterest.com/theykshairstudio/"}
+            ]
         }
     ],
     "stylists": [
@@ -251,6 +264,20 @@
                 {"text": "Website", "url": "https://www.massagebook.com/therapists/trinity-stones-massage"},
                 {"text": "Facebook", "url": "https://www.facebook.com/Trinitystonesmassage"},
                 {"text": "Instagram", "url": "https://www.instagram.com/trinity.stones/"}
+            ]
+        }
+    ],
+    "retail": [
+        {
+            "name": "Red Ink Boutique",
+            "image": "./img/directory/red-ink-boutique.jpg",
+            "contacts": ["Rosie - (346) 305-8651"],
+            "services": ["Clothing", "Gifts", "Accessories"],
+           "links": [
+                {"text": "Website", "url": "https://www.redinkboutique.com/"},
+                {"text": "Facebook", "url": "https://www.facebook.com/redinkthewoodlands"},
+                {"text": "Instagram", "url": "https://www.instagram.com/redinkboutique/"},
+                {"text": "YouTube", "url": "https://www.youtube.com/@Rosie-miracle-oils"}
             ]
         }
     ]

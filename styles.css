@@ -390,6 +390,7 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.6);
+  text-align: center;
 }
 .trust-divider {
   width: 1px;

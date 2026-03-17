@@ -237,6 +237,7 @@ a { color: inherit; text-decoration: none; }
 .main-nav a:hover { color: var(--mauve); }
 .main-nav a:hover::after { transform: scaleX(1); }
 .main-nav .nav-cta {
+  display: none;
   margin-left: auto;
   background: var(--mauve);
   color: var(--white);
@@ -1207,6 +1208,7 @@ a { color: inherit; text-decoration: none; }
   }
   .main-nav a::after { display: none; }
   .main-nav .nav-cta {
+    display: flex;
     margin: 8px 28px 0;
     height: auto;
     padding: 12px 20px;
